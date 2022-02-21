@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.w-10{
+    width: 80%;
+}
+
+.w-20{
+    width: 90%;
+}
+
+h1{
+    color: #fd7e14;
+}
+
+h6{
+    color: #fd7e14;
+    font-size: 1rem;
+}
+nav ul{
+    text-decoration: none;
+}
+
+a.active{
+    color: #fd7e14;;
+}
+
+/*Nav*/
+
+nav img{
+    margin-right: 8px;
+}
+
+.navbar h6{
+    font-size: 1.5rem;
+}
+
+/*Header*/
+
+.header{
+    background-image: url(../img/bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 6rem; 
+}
+
+.header-text{
+    color: white ;
+}
+
+.header-text h3{
+    font-size: 5rem;
+    padding-top:4rem;
+}
+
+.header-text h4{
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+
+.header-text p{
+    font-size: 2rem;
+    width: 30rem;
+    padding-bottom: 4rem;
+}
+
+.header-text{
+    padding-left: 3rem;
+} 
+
+/*About*/
+
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+.about-text h4{
+    font-size: 2.5rem;
+
+}
+
+/*learn*/
+
+.learn-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-text h4{
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.learn img{
+    width: 30%;
+}
+
+.learn h1{
+    font-size: 2.5rem;
+
+}
+
+.learn p{
+    padding-bottom: 4rem;
+}
+
+/*footer*/
+
+.footer p{
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
